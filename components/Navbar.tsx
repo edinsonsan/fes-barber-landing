@@ -94,7 +94,22 @@ export function Navbar() {
                 <a
                   key={link.name}
                   href={link.href}
-                  onClick={() => setIsOpen(false)}
+                  onClick={(e) => {
+                    if (!link.external && link.href.startsWith("#")) {
+                      e.preventDefault();
+
+                      const id = link.href.replace("#", "");
+                      const element = document.getElementById(id);
+
+                      setIsOpen(false);
+
+                      setTimeout(() => {
+                        element?.scrollIntoView({ behavior: "smooth" });
+                      }, 200);
+                    } else {
+                      setIsOpen(false);
+                    }
+                  }}
                   className="text-lg font-medium text-white hover:text-amber-500 block py-3 border-b border-slate-800 last:border-0"
                   {...(link.external
                     ? { target: "_blank", rel: "noopener noreferrer" }
