@@ -15,7 +15,7 @@ export function Navbar() {
     { name: "FAQ", href: "#faq" },
     {
       name: "Contacto",
-      href: "https://wa.me/51927306862",
+      href: "https://wa.me/51927306862?text=Hola,%20te%20escribo%20desde%20la%20web%20de%20FES%20Barber%20y%20quiero%20información.",
       external: true
     },
   ];

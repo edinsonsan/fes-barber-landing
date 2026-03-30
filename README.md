@@ -4,7 +4,7 @@
   <p><strong>The Ultimate Management SaaS for Modern Barbershops in Latin America ✂️</strong></p>
 
   <p>
-    <a href="https://nextjs.org/"><img src="https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js" alt="Next.js" /></a>
+    <a href="https://nextjs.org/"><img src="https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=next.js" alt="Next.js" /></a>
     <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" /></a>
     <a href="https://www.framer.com/motion/"><img src="https://img.shields.io/badge/Framer_Motion-black?style=for-the-badge&logo=framer" alt="Framer Motion" /></a>
     <a href="https://vercel.com/"><img src="https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel" alt="Vercel" /></a>
@@ -20,7 +20,7 @@
 This repository contains the **official landing page** built to showcase the app's powerful features, display expert testimonials, answer common questions, and drastically improve user conversion rates through a highly optimized sales funnel.
 
 ## 🔗 Live Demo
-> **[View Live Site 🌍](https://fes-barber.vercel.app)** *(Placeholder URL)*
+> **[View Live Site 🌍](https://fesbarber.com)** *fesbarber.com*
 >
 > Download the Android App on Google Play: **[FES Barber on Play Store](https://play.google.com/store/apps/details?id=com.fescore.barber)**
 
@@ -45,11 +45,11 @@ This project is built with modern web development standards to ensure blazing fa
 
 ## 📸 Screenshots
 
-| Hero Section | Mobile View |
-| :---: | :---: |
-| <img src="https://via.placeholder.com/800x450/0f172a/f59e0b?text=Hero+Section+Preview" alt="Hero Preview" width="400" /> | <img src="https://via.placeholder.com/400x700/0f172a/f59e0b?text=Mobile+Experience" alt="Mobile Preview" width="200" /> |
+### 🖥️ Desktop
+<img src="./public/screenshots/hero.png" alt="Hero Preview" width="600" />
 
-*(Add real screenshots inside the `public/` directory and update these paths)*
+### 📱 Mobile
+<img src="./public/screenshots/mobile.png" alt="Mobile Preview" width="250" />
 
 ## 🛠️ Local Installation
 

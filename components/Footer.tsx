@@ -31,7 +31,7 @@ export function Footer() {
           <div className="flex flex-col items-center sm:items-start gap-3">
             <span className="text-white font-semibold mb-1">Contacto</span>
             <a
-              href="https://wa.me/51927306862"
+              href="https://wa.me/51927306862?text=Hola%20👋,%20vi%20la%20página%20de%20FES%20Barber%20y%20quiero%20más%20información."
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm font-medium text-amber-500 hover:text-amber-400 transition-colors text-center sm:text-left"
